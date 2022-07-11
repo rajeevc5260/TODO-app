@@ -5,7 +5,7 @@ var check = (callback)=>{
     document.getElementById("password").value == 12345){
         callback();
         document.getElementById("error").style.color = "green";
-        document.getElementById("error").innerHTML = "Done!!";
+        document.getElementById("error").innerHTML = "Sucess";
         return true;
     }else{
         document.getElementById("error").style.color = "red";
