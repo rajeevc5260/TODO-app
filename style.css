@@ -21,12 +21,17 @@
 #submit{
     font-size: 16px;
     font-weight: 600;
-    color: rgb(31, 30, 29);
+    color: black;
     width: 100px;
     height: 40px;
     border: none;
     cursor: pointer;
     background-color: rgb(255, 166, 0);
+    transition: all 0.5s;
+}
+#submit:hover{
+    background-color: rgb(128, 17, 192);
+    color: rgb(241, 238, 234);
 }
 
 #ldetails{
@@ -50,8 +55,8 @@
 #todohead{
     cursor: pointer;
     color: rgb(76, 20, 129);
-    padding-right: 40px;
-    padding-left: 90px;
+    margin-right: 40px;
+    margin-left: 90px;
 }
 
 a:link,
